@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Proudly presented by ECharts</title>
+    {% for jsfile_name in script_list %}
+        <script src="../static/{{ jsfile_name }}.js"></script>
+    {% endfor %}
+</head>
+
+<body style="margin: auto">
+<div style="margin: auto;width: 70%">
+    <div>
+        <h3>垃圾生产与垃圾处理</h3>
+    </div>
+
+    <form action="/" style="float: left">
+        <button type="submit">首页</button>
+    </form>
+
+    <form action="/people_laji" style="float: left;margin-left: 10px">
+        <button type="submit">2009-2017年各省产生垃圾与人口对比</button>
+    </form>
+    <form action="/people_laji_map" style="float: left;margin-left: 10px">
+        <button type="submit">展示垃圾清运量地图</button>
+    </form>
+    <form action="/wuhai" style="float: left;margin-left: 10px">
+        <button type="submit">2009-2018年各省垃圾无害化清理率</button>
+    </form>
+
+    <form action="" style="margin-left: 20px">
+        <span style="margin-left: 10px"></span>
+
+    </form>
+    {{ myechart|safe }}
+    <div style="size: 50px"><b>{% if text %}
+        分析
+    {% endif %}</b></div>
+    <div style="float: left;width: 70%">
+        <p style="text-indent:2em">{{ text }}</p>
+    </div>
+    <div style="size: 50px;clear: both"><b>{% if text1 %}
+        发现与结论
+    {% endif %}</b></div>
+    <div style="float: left;width: 70%">
+        <p style="text-indent:2em">{{ text1 }}</p>
+    </div>
+</div>
+</body>
+
+</html>
