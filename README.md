@@ -34,4 +34,4 @@
 * 分析得出
   - 垃圾无害化处理的工艺主要有:卫生填埋、堆肥和焚烧三种。 由垃圾无害化处理率地图可见，一开始，各省的处理率都十分不平均，高的高达97，低的低达29，西藏在2016年之前甚至没有数据。直到2016年后，全国的垃圾无害化处理都基本达到了90%。
   
-# [python档描述及web app动作描述](https://github.com/WuXinlin0/python-project/blob/master/181013099/app.py)
+* [python档描述及web app动作描述](https://github.com/WuXinlin0/python-project/blob/master/181013099/app.py)
