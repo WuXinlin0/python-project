@@ -6,13 +6,13 @@
 * 我们的网站有4个URL：
 * 它们展示的功能是：
 
-1. 2009年-2017年各省垃圾生产与人口对比
+1. [2009年-2017年各省垃圾生产与人口对比](http://865152366.pythonanywhere.com/people_laji)
 
-2. 2009年各省垃圾清运量
+2. [2009年各省垃圾清运量](http://865152366.pythonanywhere.com/people_laji_map)
 
-3. 2009年各省垃圾无害化清理率
+3. [2009年各省垃圾无害化清理率](http://865152366.pythonanywhere.com/wuhai)
 
 我主要负责的页面：
-* 首页 
+* [首页](http://865152366.pythonanywhere.com) 
 * 涉及了python的数据嵌套和动态现实 
-* 设计了flask的嵌套、动态表格下拉框
+* 设计了flask的嵌套
